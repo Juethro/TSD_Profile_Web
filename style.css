@@ -14,9 +14,13 @@
     --text-color: rgb(229,229,229);
 }
 
+/* Ukuran font */
 :root{
     --body-font: 'Montserrat', sans-serif;
     --big-font-size: 6.25rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --small-font-size: .813rem;   
 }
 
 /* Apa Itu TSD */
