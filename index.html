@@ -9,17 +9,16 @@
     <!-- style -->
     <link rel="stylesheet" href="style.css">
 
-    <title>Beranda</title>
+    <title>Landing Page</title>
 </head>
-<body>
 
+<body>
 <!-- Navigation Bar -->
-    <header>
+    <header class="l-header">
         <!-- Nav agar prioritas utama load -->
-        <nav>
+        <nav class="nav">
             <!-- Kiri -->
             <div class="navlogo">
-                <img src="assets/favicon-archi.png" alt="archi-icon">
                 <a href="#" class="homelogo">TSD</a>
             </div>
             
@@ -27,7 +26,7 @@
             <div class="navmenu" id="nav-menu">
                 <ul class="menu">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="#apa-itu-tsd" class="nav-link">Apa Itu TSD</a></li>
+                    <li class="nav-item"><a href="#apaitu-container" class="nav-link">Apa Itu TSD</a></li>
                     <li class="nav-item"><a href="#angkatan" class="nav-link">Profil Angkatan 2021</a></li>
                     <li class="nav-item"><a href="#kasta" class="nav-link">KASTA 2022</a></li>
                     <li class="nav-item"><a href="#kurikulum" class="nav-link">Kurikulum TSD</a></li>
@@ -46,25 +45,32 @@
 
         <!-- Home -->
         <section class="home" id="home">
-            <div class="home-container">
-                <!-- Judul -->
-                <h1 class="judul">Teknologi<br>Sains<br>Data</h1>
-
-                <!-- Tombol Scroll Down -->
-                <div class="scroll-dwn">
-                    <a href="#apa-itu-tsd" class="scrolldown">Scroll Down</a>
+            <div class="home-container bd-grid">
+                <div class="home-kiri">
+                    <!-- Judul -->
+                    <div class="h1-besar">
+                        <h1 class="judul">Teknologi<br>Sains<br>Data</h1>
+                    </div>
+                    
+                    <!-- Tombol Scroll Down -->
+                    <div class="scroll-dwn">
+                        <a href="#apa-itu-tsd" class="scrolldown">Scroll Down</a>
+                    </div>
                 </div>
-
-                <img src="assets/image-removebg-preview.png" alt="home-illustration">
+                
+                <div class="home-gambar">
+                    <img src="assets/image-removebg-preview.png" alt="home-illustration">
+                </div>
+                
             </div>
         </section>
 
         <!-- Apa Itu TSD? -->
         <section class="apa-itu-tsd">
-            <div class="apaitu-container">
+            <div class="apaitu-container bd-grid" id="2">
                 <div class="deskripsi-tsd">
                     <div class="desctitle-tsd">
-                        <h2 class="section-tittle">Apa Itu<br>TSD?</h2>
+                        <h2 class="section-tittle">Apa Itu TSD?</h2>
                     </div>
                     <div class="desc-tsd">
                         <p>TSD atau Teknologi Sains Data merupakan salah satu program studi dari Fakultas Teknologi Maju dan Multidisiplin (FTMM) Universitas Airlangga. Tujuan TSD ada adalah untuk memenuhi kebutuhan nasional yakni talenta digital. TSD </p>
@@ -78,7 +84,7 @@
 
         <!-- A2CHIMEDES -->
         <section class="angkatan">
-            <div class="angkatan-container">
+            <div class="angkatan-container bd-grid">
                 <div class="deskripi-angkatan">
                     <div class="desctitle-angkatan">
                         <h2 class="section-tittle">Archimedes</h2>
@@ -102,7 +108,7 @@
 
         <!-- KASTA 2022 -->
         <section class="kasta">
-            <div class="kasta-container">
+            <div class="kasta-container bd-grid">
                 <!-- Judul -->
                 <h2 class="section-tittle">Kasta</h2>
 
@@ -124,14 +130,14 @@
 
         <!-- Kurikulum TSD -->
         <section class="kurikulum">
-            <div class="kurikulum-container">
+            <div class="kurikulum-container bd-grid">
                 <h2 class="section-tittle">Kurikulum</h2>
             </div>
         </section>
 
         <!-- Profil Dosen -->
         <section class="dosen">
-            <div class="dosen-container">
+            <div class="dosen-container bd-grid">
                 <h2 class="section-tittle">Dosen</h2>
                 <div class="content">
                     <div class="card">
@@ -198,7 +204,7 @@
 
         <!-- Events -->
         <section class="events">
-            <div class="event-container">
+            <div class="event-container bd-grid">
                 <img src="assets/Makrab/IMG_3067.jpg" alt="Events">
 
                 <div class="events-photo">
@@ -230,14 +236,14 @@
 
         <!-- Apa Kata Mereka -->
         <section class="katamereka">
-            <div class="katamereka-container">
+            <div class="katamereka-container bd-grid">
                 
             </div>
         </section>
 
         <!-- faq -->
         <section class="faq">
-            <div class="faq-container">
+            <div class="faq-container bd-grid">
                 <!-- gambar kiri faq -->
                 <div class="faq-illus">
 
