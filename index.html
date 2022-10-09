@@ -8,18 +8,22 @@
 
     <!-- style -->
     <link rel="stylesheet" href="style.css">
-
     <title>Landing Page</title>
 </head>
 
 <body>
 <!-- Navigation Bar -->
-    <header class="l-header">
+    <header>
         <!-- Nav agar prioritas utama load -->
-        <nav class="nav">
+        <nav id="navbar">
             <!-- Kiri -->
-            <div class="navlogo">
-                <a href="#" class="homelogo">TSD</a>
+            <div class="kiri">
+                <div class="gambar-logo">
+                    <img src="assets/favicon-archi.png" alt="logo-archi">
+                </div>
+                <div class="navlogo">
+                    <a href="#" class="homelogo">TSD</a>
+                </div>
             </div>
             
             <!-- Kanan -->
@@ -27,12 +31,9 @@
                 <ul class="menu">
                     <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
                     <li class="nav-item"><a href="#apaitu-container" class="nav-link">Apa Itu TSD</a></li>
-                    <li class="nav-item"><a href="#angkatan" class="nav-link">Profil Angkatan 2021</a></li>
+                    <li class="nav-item"><a href="#dosen" class="nav-link">Profil Dosen</a></li>
                     <li class="nav-item"><a href="#kasta" class="nav-link">KASTA 2022</a></li>
                     <li class="nav-item"><a href="#kurikulum" class="nav-link">Kurikulum TSD</a></li>
-                    <li class="nav-item"><a href="#dosen" class="nav-link">Profil Dosen</a></li>
-                    <li class="nav-item"><a href="#events" class="nav-link">Events</a></li>
-                    <li class="nav-item"><a href="#katamereka" class="nav-link">Apa Kata Mereka?</a></li>
                     <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
                 </ul>
             </div>
@@ -40,230 +41,40 @@
 
     </header>
 
-<!-- Isi Landing Page -->
-    <main class="utama">
-
-        <!-- Home -->
-        <section class="home" id="home">
-            <div class="home-container bd-grid">
-                <div class="home-kiri">
-                    <!-- Judul -->
-                    <div class="h1-besar">
-                        <h1 class="judul">Teknologi<br>Sains<br>Data</h1>
-                    </div>
-                    
-                    <!-- Tombol Scroll Down -->
-                    <div class="scroll-dwn">
-                        <a href="#apa-itu-tsd" class="scrolldown">Scroll Down</a>
-                    </div>
+    <main>
+        <section class="home">
+            <div class="home-container">
+                <div class="judul">
+                    <h1 class="judul-tsd">Teknologi<br>Sains Data</h1>
                 </div>
-                
-                <div class="home-gambar">
-                    <img src="assets/image-removebg-preview.png" alt="home-illustration">
+                <div class="scrollbtn">
+                    <a href="#">Scroll Down</a>
                 </div>
-                
             </div>
         </section>
 
-        <!-- Apa Itu TSD? -->
-        <section class="apa-itu-tsd">
-            <div class="apaitu-container bd-grid" id="2">
-                <div class="deskripsi-tsd">
-                    <div class="desctitle-tsd">
-                        <h2 class="section-tittle">Apa Itu TSD?</h2>
-                    </div>
-                    <div class="desc-tsd">
-                        <p>TSD atau Teknologi Sains Data merupakan salah satu program studi dari Fakultas Teknologi Maju dan Multidisiplin (FTMM) Universitas Airlangga. Tujuan TSD ada adalah untuk memenuhi kebutuhan nasional yakni talenta digital. TSD </p>
-                    </div>
-
+        <section class="apaitu">
+            <div class="apaitu-container">
+                <div class="subjudul">
+                    <h2>Apa Itu TSD?</h2>
                 </div>
-
-                <img src="#" alt="ilustration-tsd" class="tsd-illus">
-            </div>
-        </section>
-
-        <!-- A2CHIMEDES -->
-        <section class="angkatan">
-            <div class="angkatan-container bd-grid">
-                <div class="deskripi-angkatan">
-                    <div class="desctitle-angkatan">
-                        <h2 class="section-tittle">Archimedes</h2>
-                        <p class="subtitle-angkatan"></p>
-                    </div>
-                    <div class="slider-photo">
-                        <img src="#" alt="angkatan-21">
-
-                    </div>
-
-                    <div class="desc-angkatan">
-                        <p>A2chimedes adalah mahasiswa TSD Unair angkatan 2021. A2chimedes merupakan keluarga besar TSD angkatan 21 dengan </p>
-                    </div>
-                </div>
-                <div class="gambar-a2chi">
-                    <img src="assets/ARCHIMEDES.png" alt="logo-a2chimedes">
-                </div>
-            </div>
-
-        </section>
-
-        <!-- KASTA 2022 -->
-        <section class="kasta">
-            <div class="kasta-container bd-grid">
-                <!-- Judul -->
-                <h2 class="section-tittle">Kasta</h2>
-
-                <!-- Isi -->
                 <div class="isi">
-                    <img class="kasta-logo" src="#" alt="kasta-logo">
-                
-                    <!-- desc-kasta -->
-                    <div class="kasta-title">
-    
-                    </div>
-                    <div class="desc-kasta">
-    
-                    </div>
-                </div>
-                
-            </div>
-        </section>
-
-        <!-- Kurikulum TSD -->
-        <section class="kurikulum">
-            <div class="kurikulum-container bd-grid">
-                <h2 class="section-tittle">Kurikulum</h2>
-            </div>
-        </section>
-
-        <!-- Profil Dosen -->
-        <section class="dosen">
-            <div class="dosen-container bd-grid">
-                <h2 class="section-tittle">Dosen</h2>
-                <div class="content">
-                    <div class="card">
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Dwi-Rantini" src="assets/Dosen/TSD-Rantini-1.png" alt="bu-dwi">
-                            </div>
-                            <div class="nama">
-                                Dr. Dwi Rantini, S.Si.
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Fakhuz-Ruzza" src="assets/Dosen/RUZZA-300x300.jpg" alt="pak-ruzza">
-                            </div>
-                            <div class="nama">
-                                Muhammad Noor Fakhruzzaman, S.Kom., M.Sc
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Indah-Fah" src="assets/Dosen/INDAH-300x300.jpg" alt="bu-indah">
-                            </div>
-                            <div class="nama">
-                                Indah Fammiyah, S.Si., M.Stat.
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Ratih-Ardiati" src="assets/Dosen/RATIH-300x300.jpg" alt="bu-ratih">
-                            </div>
-                            <div class="nama">
-                                Ratih Ardiati Ningrum, M.S., M.Stat.
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Ika-Qutsiati" src="assets/Dosen/TSD_IKA-300x300.jpg" alt="bu-ika">
-                            </div>
-                            <div class="nama">
-                                Ika Qutsiati, S.Kom., M.Sc
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Moh-Ghani" src="assets/Dosen/TSD-MGhani-1-300x300.png" alt="pak-Ghani">
-                            </div>
-                            <div class="nama">
-                                Mohammad Ghani, S.Si., M.Si, Ph.D.
-                            </div>
-                        </div>
-                        <div class="card-content">
-                            <div class="dosen-img">
-                                <img id="Septi-Devi" src="assets/Dosen/TSD-Septi-300x300.png" alt="bu-septi">
-                            </div>
-                            <div class="nama">
-                                Dr (Cand) Septia Devi Prihastuti Yasmirullah, S.Si
-                            </div>
-                        </div>
-                    </div>
+                     
                 </div>
             </div>
         </section>
 
-        <!-- Events -->
-        <section class="events">
-            <div class="event-container bd-grid">
-                <img src="assets/Makrab/IMG_3067.jpg" alt="Events">
-
-                <div class="events-photo">
-                    <a href="#" class="photos-link">Selengkapnya</a>
-                </div>
-            </div>
-
-            <div class="event-container">
-                <img src="assets/Binary/IMG_4651.jpg" alt="Events">
-
-                <div class="events-photo">
-                    <a href="#" class="photos-link">Selengkapnya</a>
-                </div>
-            </div>
-
-            <div class="event-container">
-                <img src="#" alt="Events" href="#" >
-
-                <div class="events-photo">
-                    <a href="#" class="photos-link">Selengkapnya</a>
-                </div>
-            </div>
-
-            <div class="selengkapnnya">
-                <a href="" class="selengkapnya-btn">Selengkapnya</a>
-            </div>
-
-        </section>
-
-        <!-- Apa Kata Mereka -->
-        <section class="katamereka">
-            <div class="katamereka-container bd-grid">
-                
-            </div>
-        </section>
-
-        <!-- faq -->
-        <section class="faq">
-            <div class="faq-container bd-grid">
-                <!-- gambar kiri faq -->
-                <div class="faq-illus">
-
-                </div>
-
-                <!-- isi pertanyaan -->
-                <div class="faq-isi">
-
+        <section class="a2chimedes">
+            <div class="a2chi-container">
+                <div class="subjudul">
+                    <h2>A2chimedes</h2>
                 </div>
             </div>
         </section>
-
     </main>
 
-    <!-- Bagian Contact Info -->
-    <footer class="info-foot">
-        <div class="contact-info">
-            
-        </div>
+    <footer>
+        
     </footer>
-
 </body>
 </html>
