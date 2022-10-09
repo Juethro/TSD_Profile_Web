@@ -9,6 +9,7 @@
 
 html{
     scroll-behavior: smooth;
+
 }
 
 body{
@@ -16,6 +17,11 @@ body{
     font-family: 'Montserrat', sans-serif;
     background-color: var(--warna-putih);
 }
+
+body p{
+    font-size: 18px;
+}
+
 
 header {
     background-color: #222;
@@ -291,13 +297,43 @@ h2{
     font-family: 'Monserrat', sans-serif;
     display: flex;
     justify-content: center;
+    font-size: 36px;
 }
+
+/* Profil angkatan */
+.a2chimedes{
+    margin: 0;
+    padding: 17px;
+    margin-bottom: 80px;
+}
+.a2chimedes .a2chi-container{
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.a2chi-container .a2chime-gambar{
+    text-align: center;
+}
+
+.a2chi-container .a2chime-gambar img{
+    width: 450px;
+    height: auto;
+}
+
+.a2chi-container .archi-desc{
+    text-align: center;
+}
+
+
+/* Profil angkatan-selesai */
 
 
 /* Kurikulum */
 .kurikulum{
     margin: 0;
     padding: 17px;
+    margin-bottom: 60px;
 }
 
 .kurikulum .kurikulum-container{
@@ -331,8 +367,6 @@ h2{
 .kurikulum-desc a:hover{
     color: var(--warna-gelap);
 }
-
-
 /* Kurikulum-selesai */
 
 /* Dosen Slider */
@@ -349,7 +383,7 @@ h2{
 .dosen-container .subjudul h2{
     padding: 2vw 10vw;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 36px;
     margin-bottom: 17px;
 }
 
