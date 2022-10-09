@@ -295,19 +295,64 @@ h2{
     position: relative;
     overflow: hidden;
     padding: 20px;
+    background-image: url(assets/Bg-dosen.jpg);
+    background-size: cover;
 }
 
-.dosen-container .sub-judul h2{
-    padding: 0 10vw;
+.dosen-container .subjudul h2{
+    padding: 2vw 10vw;
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 17px;
 }
 
 .dosen-container .dosen-list{
-    padding: 0 10vw;
+    padding: 2vw 0vw;
     display: flex;
     overflow-x: auto;
     scroll-behavior: smooth;
+    margin-top: 20px;
+}
+
+.dosen-container .dosen-list::-webkit-scrollbar{
+    display: none;
+}
+
+.dosen-selengkapnya{
+    margin-top: 1.7rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.dosen-card{
+    flex: 0 0 auto;
+    width: 300px;
+    height: 440px;
+    margin-right: 70px;
+    border-radius: 20px;
+    background-color: var(--warna-putih);
+    box-shadow: 5px 8px;
+}
+
+.dosen-card .dosen-gambar{
+    position: relative;
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+    padding: 17px;
+}
+
+.dosen-card .product-thumb{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nama{
+    text-transform: uppercase;
+    padding-left: 17px;
 }
 
 .dosen-container{
@@ -316,18 +361,49 @@ h2{
     margin: 0 auto;
 }
 
-
-
 .dosen-container .prebtn img,
 .dosen-container .nxtbtn img{
-    width: 20px;
-    height: 20px;
+    max-width: 40px;
+    height: auto;
     margin: 0;
+    opacity: .2;
 }
 
+.dosen-container .prebtn ,
+.dosen-container .nxtbtn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    cursor: pointer;
+    z-index: 8;
+}
 
+.dosen-container .prebtn{left: 0;}
+.dosen-container .nxtbtn{right: 0;}
+
+.dosen-container .prebtn:hover img,
+.dosen-container .nxtbtn:hover img{
+    opacity: 1;
+} 
+
+.dosen-selengkapnya{
+    text-decoration: none;
+    color: var(--warna-gelap);
+    padding-bottom: 20px;
+}
 /* Dosen slider-selesai */
 
+
+/* Events */
+
+
+/* Events-selesai */
 
 
 
@@ -399,12 +475,16 @@ h2{
 
 .faq-container .isi-faq{
     display: flex;
-    align-items: top;
+    align-items: center;
 }
 
 .isi-faq .illust{
     margin-right: 0;
 }
+
+
+
+
 /* FAq-selesai */
 
 
