@@ -1,0 +1,15 @@
+000000 (biru item)
+14213D (biru gelap)
+FCA311 (kuning)
+E5E5E5 (abu)
+FFFFFF (putih)
+f8edeb (cream)
+
+kuning
+F9DC5C
+FAE588
+FCEFB4
+FDF8E1
+F9DC5C
+
+font-family: 'Montserrat', sans-serif;
