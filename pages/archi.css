@@ -1,0 +1,252 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+body {
+    overflow: hidden;
+
+    background-color: white;
+
+}
+
+.content {
+    width: 100%;
+    min-height: 100vh;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    height: 100px;
+    z-index: 111;
+    background-color: #a47e1b;
+    line-height: 100px;
+    color: #f8edeb;
+
+}
+
+.kasta {
+    font-family: 'Yeseva One', cursive;
+    display: flex;
+    font-size: 50px;
+    font-weight: 1000;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background-color: #a47e1b;
+    margin-right: 50%;
+}
+
+.element {
+    display: flex;
+}
+
+ul li {
+    list-style-type: none;
+    background-color: #a47e1b;
+}
+
+ul li a {
+    font-family: 'Yeseva One', cursive;
+    list-style: none;
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    background-color: #a47e1b;
+}
+
+ul li a:hover {
+    color: #c05299;
+}
+
+.links {
+    background-color: #a47e1b;
+}
+
+.links a {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin: 10px;
+    background-color: #a47e1b;
+}
+
+.links a i {
+    background-color: #a47e1b;
+}
+
+.links a:hover {
+    color: #c05299;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.header {
+    font-weight: 1000px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.header b {
+    font-size: 100px;
+    color: #c05299;
+}
+
+.main .segmen {
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+
+.subheader {
+    font-family: 'Yeseva One', cursive;
+    display: block;
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 1%;
+}
+
+.cs {
+    font-family: 'Yeseva One', cursive;
+    display: block;
+    position: relative;
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #3a0ca3;
+    font-weight: 900;
+    margin-top: 10%;
+    font-style: italic;
+}
+
+p {
+    display: block;
+    width: 150%;
+    font-size: 30px;
+    text-align: justify;
+}
+
+p b {
+    font-style: italic;
+}
+
+.imagebox {
+    position: relative;
+    width: 50%;
+    margin-top: 20%;
+}
+
+.imagebox img {
+    position: relative;
+    width: 800px;
+    animation: animateUser 3s linear infinite;
+}
+
+@keyframes animateUser {
+    0% {
+        right: 0px;
+        top: -0px;
+    }
+
+    10% {
+        right: 10px;
+        top: -10px;
+    }
+
+    20% {
+        right: 20px;
+        top: -20px;
+    }
+
+    30% {
+        right: 30px;
+        top: -30px;
+    }
+
+    40% {
+        right: 40px;
+        top: -40px;
+    }
+
+    50% {
+        right: 30px;
+        top: -30px;
+    }
+
+    60% {
+        right: 20px;
+        top: -20px;
+    }
+
+    70% {
+        right: 10px;
+        top: -10px;
+    }
+
+    80% {
+        right: 0px;
+        top: 0px;
+    }
+
+}
+
+.content::before {
+    position: absolute;
+    content: '';
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    left: -12%;
+    top: 30%;
+    background: linear-gradient(45deg, #ffc300, #f8edeb);
+    animation: contentanimate1 6s linear infinite;
+}
+
+.content::after {
+    position: absolute;
+    content: '';
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left: 35%;
+    top: 20%;
+    background: linear-gradient(45deg, #ffc300, #f8edeb);
+    animation: contentanimate2 6s linear infinite;
+}
+
+.content {
+    z-index: 10;
+}
+
+.segmen {
+    z-index: 5;
+}
+
+@keyframes contentanimate1 {
+    50% {
+        left: -13%;
+        top: 41%;
+    }
+}
+
+@keyframes contentanimate2 {
+    50% {
+        left: 25%;
+        top: 15%;
+    }
+}
