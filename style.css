@@ -124,9 +124,15 @@ h2{
 }
 
 
+/* Dosen Slider */
+.dosen-container{
+    max-width: 1100px;
+    align-items: center;
+    margin: 0 auto;
+}
 
 
-
+/* Dosen slider-selesai */
 
 
 
@@ -194,6 +200,7 @@ h2{
 
 .faq-container .isi-faq .illust img{
     max-width: 80%;
+    overflow: hidden;
 }
 
 .faq-container .isi-faq{
