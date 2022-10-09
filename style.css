@@ -7,6 +7,10 @@
     --warna-putih: rgb(255,255,255);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
@@ -290,6 +294,47 @@ h2{
 }
 
 
+/* Kurikulum */
+.kurikulum{
+    margin: 0;
+    padding: 17px;
+}
+
+.kurikulum .kurikulum-container{
+    max-width: 1100px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.kurikulum-container .kurikulum-isi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kurikulum-container .kurikulum-illust img{
+    width: 540px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.kurikulum-container .kurikulum-desc p{
+    padding: 10px 0;
+}
+
+.kurikulum-container .kurikulum-desc a{
+    text-decoration: none;
+    color: var(--warna-emas);
+    text-align: end;
+}
+
+.kurikulum-desc a:hover{
+    color: var(--warna-gelap);
+}
+
+
+/* Kurikulum-selesai */
+
 /* Dosen Slider */
 .dosen{
     position: relative;
@@ -297,12 +342,14 @@ h2{
     padding: 20px;
     background-image: url(assets/Bg-dosen.jpg);
     background-size: cover;
+    box-shadow: inset 0 6px 4px rgba(9, 28, 28, .94),
+                inset 0 -6px 9px rgba(9, 28, 28, .94);
 }
 
 .dosen-container .subjudul h2{
     padding: 2vw 10vw;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     margin-bottom: 17px;
 }
 
@@ -324,6 +371,28 @@ h2{
     display: flex;
     justify-content: center;
     text-decoration: none;
+    align-items: center;
+}
+
+.dosen-card-khusus{
+    flex: 0 0 auto;
+    width: 300px;
+    height: 440px;
+    margin-right: 70px;
+    border-radius: 20px;
+    background-color: var(--warna-putih);
+    box-shadow: 5px 8px;
+    align-items: center;
+}
+
+.dosen-lengkap{
+    margin: 10rem 0;
+    text-decoration: none;
+    color: var(--warna-emas);
+}
+
+.dosen-lengkap:hover{
+    color: var(--warna-gelap);
 }
 
 .dosen-card{
