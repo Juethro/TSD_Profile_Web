@@ -87,12 +87,13 @@ li a:hover{
 }
 
 h1{
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
-    font-size: 55px;
+    font-size: 79px;
     color: var(--warna-emas);
     text-shadow: 25px;
     text-align: center;
+    font-weight: bolder;
     top: 50%;
     padding: 280px 0 190px 0;
 }
@@ -119,4 +120,58 @@ h2{
     font-family: 'Yeseva One', cursive;
     display: flex;
     justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* Faq */
+
+.faq-container{
+    max-width: 700px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.faq-container .question-container{
+    box-shadow: 0 4x 8px -3 var(--warna-gelap);
+}
+
+.faq-container .faqjudul{
+    padding: 4px 32px;
+    font-size: 28px;
+}
+
+.faq-header{
+    display: flex;
+    background-color: var(--warna-gelap);
+    color: var(--warna-putih);
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.open, .close{
+    position: absolute;
+    right: 0;
+    padding: 0 32px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.faq-container .faq-header h3{
+    font-size: 20px;
+    padding: 0 32px;
+}
+
+.content{
+    padding: 0 32px;
+    line-height: 2;
+    max-height: 0;
 }
