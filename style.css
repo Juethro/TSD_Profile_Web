@@ -46,7 +46,7 @@ header .brand {
 }
 
 header .navigation {
-    position: relative;
+    position: fixed;
 }
 
 header .navigation .navigation-items a {
@@ -300,6 +300,42 @@ h2{
     font-size: 36px;
 }
 
+/* Apa Itu TSD */
+
+.apaitu{
+    margin: auto;
+    max-width: auto;
+}
+
+
+.apaitu .apaitu-illust img{
+    width: 450px;
+    height: auto;
+}
+
+.apaitu-wrapper{
+    margin-top: 80px;
+}
+
+.isi h2{
+    text-align: end;
+}
+
+.isi p{
+    text-align: end;
+    margin-top: 20px;
+}
+
+.apaitu-container {
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    
+}
+
+
+/* APa Itu TSD-selesai */
+
 /* Profil angkatan */
 .a2chimedes{
     margin: 0;
@@ -552,7 +588,7 @@ h2{
     margin: 0 0 0 -1600px;
     position: relative;
     -webkit-animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
+    -webkit-animation-duration: 15s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-direction: alternate;
     -webkit-animation-play-state: running;
@@ -652,9 +688,6 @@ h2{
 .isi-faq .illust{
     margin-right: 0;
 }
-
-
-
 
 /* FAq-selesai */
 
