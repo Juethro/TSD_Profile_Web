@@ -149,7 +149,7 @@ p b {
 
 .imagebox img {
     position: relative;
-    width: 450px;
+    width: 380px;
     animation: animateUser 3s linear infinite;
 }
 
@@ -204,8 +204,8 @@ p b {
 .content::before {
     position: absolute;
     content: '';
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     left: -12%;
     top: 30%;

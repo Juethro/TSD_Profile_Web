@@ -334,7 +334,7 @@ h2{
     
 }
 
-.apaitu-wrapper .kasta-isi .tulisan p a{
+.apaitu-wrapper .tulisan p a{
     text-decoration: none;
     color: var(--warna-emas);
 }
@@ -669,8 +669,6 @@ h2{
     padding: 8px 10px;
     border-radius: 20px;
 }
-
-
 /* Events-selesai */
 
 /* Faq */
@@ -753,3 +751,29 @@ h2{
 /* Footer */
 
 /* Footer-selesai */
+
+
+/* Page Apa Itu TSD */
+
+.kepala{
+    margin: 0;
+    font-family: 'Monserrat', sans-serif;
+    padding: 0;
+    overflow: hidden;
+}
+
+.kepala .container{
+    max-width: 1400px;
+    overflow: hidden;
+}
+
+.judul h1{
+    font-size: 36px;
+}
+
+.gambar img{
+    width: 540px;
+    height: auto;
+}
+
+/* Page Apa Itu TSD-selesai */

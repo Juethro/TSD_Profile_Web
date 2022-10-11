@@ -7,7 +7,6 @@
 }
 
 body {
-    overflow: hidden;
 
     background-color: #8BC6EC;
     background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
@@ -16,25 +15,23 @@ body {
 
 .content {
     width: 100%;
-    min-height: 100vh;
 }
 
 nav {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    height: 100px;
     z-index: 111;
     background-color: #001d3d;
-    line-height: 100px;
     color: #f8edeb;
+    padding: 15px 200px;
 
 }
 
 .kasta {
     font-family: 'Yeseva One', cursive;
     display: flex;
-    font-size: 50px;
+    font-size: 1.5em;
     font-weight: 1000;
     color: #FFFFFF;
     letter-spacing: 3px;
@@ -55,7 +52,7 @@ ul li {
 ul li a {
     font-family: 'Yeseva One', cursive;
     list-style: none;
-    font-size: 25px;
+    font-size: 1em;
     font-weight: 800;
     letter-spacing: 5px;
     text-decoration: none;
@@ -73,7 +70,7 @@ ul li a:hover {
 }
 
 .links a {
-    font-size: 40px;
+    font-size: 1em;
     color: #FFFFFF;
     margin: 10px;
     background-color: #001d3d;
@@ -90,15 +87,15 @@ ul li a:hover {
 .main {
     display: flex;
     width: 100%;
-    height: 100%;
-    align-items: center;
+    height: 700px;
+    align-items: top;
     padding: 0 10%;
     overflow: hidden;
 }
 
 .header {
-    font-weight: 1000px;
-    font-size: 20px;
+    font-weight: 500px;
+    font-size: 18px;
     font-style: italic;
 }
 
@@ -116,7 +113,7 @@ ul li a:hover {
     font-family: 'Yeseva One', cursive;
     display: block;
     position: relative;
-    font-size: 60px;
+    font-size: 36px;
     letter-spacing: 3px;
     color: #3a0ca3;
     font-weight: 900;
@@ -127,7 +124,7 @@ ul li a:hover {
     font-family: 'Yeseva One', cursive;
     display: block;
     position: relative;
-    font-size: 60px;
+    font-size: 40px;
     letter-spacing: 3px;
     color: #3a0ca3;
     font-weight: 900;
@@ -138,8 +135,9 @@ ul li a:hover {
 p {
     display: block;
     width: 150%;
-    font-size: 30px;
+    font-size: 18px;
     text-align: justify;
+    padding-right: 70px;
 }
 
 p b {
@@ -154,7 +152,7 @@ p b {
 
 .imagebox img {
     position: relative;
-    width: 800px;
+    width: 350px;
     animation: animateUser 3s linear infinite;
 }
 
@@ -209,8 +207,8 @@ p b {
 .content::before {
     position: absolute;
     content: '';
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
     left: -12%;
     top: 30%;
@@ -236,6 +234,8 @@ p b {
 
 .segmen {
     z-index: 5;
+    padding-left: 10px;
+    margin: 0px 70px 60px 0px;
 }
 
 @keyframes contentanimate1 {
