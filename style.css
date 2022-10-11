@@ -322,9 +322,10 @@ h2{
 }
 
 .isi p{
-    text-align: end;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 30px;
 }
+
 
 .apaitu-container {
     display: flex;
@@ -333,8 +334,65 @@ h2{
     
 }
 
+.apaitu-wrapper .kasta-isi .tulisan p a{
+    text-decoration: none;
+    color: var(--warna-emas);
+}
+
+.apaitu-wrapper .tulisan p a:hover{
+    color: var(--warna-gelap);
+}
 
 /* APa Itu TSD-selesai */
+
+/* KASTA */
+
+.kasta{
+    margin: auto;
+    background-image: url(assets/kasta/Bg-home-kasta.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
+.kasta-container{
+    max-width: 1400px;
+}
+
+.kasta-subjudul h2{
+    font-family: 'yeseva one', cursive;
+    font-weight: 300px;
+    color: var(--warna-putih);
+}
+
+.kasta-logo{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.kasta .kasta-logo img{
+    width: 450px;
+    height: auto;
+}
+
+.kasta-isi p{
+    text-align: center;
+    margin-top: 30px;
+    color: var(--warna-putih);
+    padding: 0 40px;
+}
+
+.kasta-isi p a{
+    text-decoration: none;
+    color: var(--warna-emas);
+}
+
+.kasta-isi p a:hover{
+    text-decoration:underline;
+    color: var(--warna-putih);
+}
+/* KASTA-selesai */
+
 
 /* Profil angkatan */
 .a2chimedes{
