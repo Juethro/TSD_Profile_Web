@@ -1,3 +1,4 @@
+// FAQ
 const faqheader = document.querySelectorAll(".faq-container .faq-header");
 
 faqheader.forEach((header, i) => {
@@ -17,6 +18,7 @@ faqheader.forEach((header, i) => {
     });
 });
 
+// tombol navigasi layar kecil
 const menuBtn = document.querySelector(".menu-btn");
 const navigation = document.querySelector(".navigation");
 
@@ -25,9 +27,10 @@ menuBtn.addEventListener("click", () => {
     navigation.classList.toggle("active");
 });
 
+// tombol dosen
 const productContainers = [...document.querySelectorAll('.dosen-list')];
-const nxtBtn = [...document.querySelectorAll('.nxtbtn')];
-const preBtn = [...document.querySelectorAll('.prebtn')];
+const nxtBtn = [document.querySelectorAll('.nxtbtn')];
+const preBtn = [document.querySelectorAll('.prebtn')];
 
 productContainers.forEach((item, i) => {
     let containerDimensions = item.getBoundingClientRect();

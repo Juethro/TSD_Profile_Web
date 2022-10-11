@@ -399,6 +399,7 @@ h2{
     margin: 0;
     padding: 17px;
     margin-bottom: 80px;
+    margin-top: 90px;
 }
 .a2chimedes .a2chi-container{
     max-width: 1100px;
@@ -419,6 +420,14 @@ h2{
     text-align: center;
 }
 
+.archi-desc p a{
+    text-decoration: none;
+    color: var(--warna-emas);
+}
+
+.archi-desc p a:hover{
+    color: var(--warna-gelap);
+}
 
 /* Profil angkatan-selesai */
 
@@ -746,34 +755,3 @@ h2{
 }
 
 /* FAq-selesai */
-
-
-/* Footer */
-
-/* Footer-selesai */
-
-
-/* Page Apa Itu TSD */
-
-.kepala{
-    margin: 0;
-    font-family: 'Monserrat', sans-serif;
-    padding: 0;
-    overflow: hidden;
-}
-
-.kepala .container{
-    max-width: 1400px;
-    overflow: hidden;
-}
-
-.judul h1{
-    font-size: 36px;
-}
-
-.gambar img{
-    width: 540px;
-    height: auto;
-}
-
-/* Page Apa Itu TSD-selesai */
