@@ -207,8 +207,8 @@ p b {
 .content::before {
     position: absolute;
     content: '';
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     left: -12%;
     top: 30%;

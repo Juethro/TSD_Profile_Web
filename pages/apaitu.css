@@ -10,14 +10,13 @@
 
 html{
     scroll-behavior: smooth;
-
 }
 
 body{
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    background-color: var(--warna-putih);
     display: flexbox;
+
 }
 
 body p{
@@ -93,6 +92,7 @@ header .navigation .navigation-items a:hover:before {
     width: 100%;
 }
 /* Header-selesai */
+
 
 
 .isi{

@@ -8,6 +8,7 @@
 
 body {
     background-color: white;
+    overflow: hidden;
 }
 
 .content {
@@ -204,8 +205,8 @@ p b {
 .content::before {
     position: absolute;
     content: '';
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     left: -12%;
     top: 30%;
@@ -227,6 +228,7 @@ p b {
 
 .content {
     z-index: 10;
+
 }
 
 .segmen {
