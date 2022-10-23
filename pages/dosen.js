@@ -1,12 +1,3 @@
-// javascript navbar
-const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navigation");
-
-menuBtn.addEventListener("click", () => {
-    menuBtn.classList.toggle("active");
-    navigation.classList.toggle("active");
-});
-
 //javarscript slider
 const btns = document.querySelectorAll(".nav-btn");
 const slides = document.querySelectorAll(".image-slide");

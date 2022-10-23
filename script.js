@@ -18,29 +18,3 @@ faqheader.forEach((header, i) => {
     });
 });
 
-// tombol navigasi layar kecil
-const menuBtn = document.querySelector(".menu-btn");
-const navigation = document.querySelector(".navigation");
-
-menuBtn.addEventListener("click", () => {
-    menuBtn.classList.toggle("active");
-    navigation.classList.toggle("active");
-});
-
-// tombol dosen
-const productContainers = [...document.querySelectorAll('.dosen-list')];
-const nxtBtn = [document.querySelectorAll('.nxtbtn')];
-const preBtn = [document.querySelectorAll('.prebtn')];
-
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
-
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
-
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
-})
